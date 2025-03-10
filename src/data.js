@@ -1,12 +1,12 @@
 // import images
-import Logo from '../src/img/header/logo.svg';
+import Logo from '../src/img/header/vis_logo.png';
 import GalleryImg1 from '../src/img/gallery/1.png';
-import GalleryImg2 from '../src/img/gallery/2.png';
+import GalleryImg2 from '../src/img/gallery/2.jfif';
 import GalleryImg3 from '../src/img/gallery/3.png';
-import GalleryImg4 from '../src/img/gallery/4.png';
-import GalleryImg5 from '../src/img/gallery/5.png';
+import GalleryImg4 from '../src/img/gallery/4.jfif';
+import GalleryImg5 from '../src/img/gallery/5.jfif';
 import GalleryImg6 from '../src/img/gallery/6.png';
-import GalleryImg7 from '../src/img/gallery/7.png';
+import GalleryImg7 from '../src/img/gallery/7.jpg';
 import GalleryImg8 from '../src/img/gallery/8.png';
 import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
@@ -27,27 +27,26 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
+    { href: '#home', name: 'Home' },
+    { href: '#about', name: 'About' },
+    { href: '#gallery', name: 'Gallery' },
+    { href: '#interview', name: 'Interview' },
+    { href: '#contact', name: 'Contact' },
   ],
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
-  { href: '/', icon: <IoLogoTwitter /> },
-  { href: '/', icon: <IoLogoYoutube /> },
+  { href: 'https://www.facebook.com/', icon: <GrFacebookOption /> },
+  { href: 'https://www.instagram.com/', icon: <IoLogoInstagram /> },
+  { href: 'http://pinterest.com/', icon: <IoLogoPinterest /> },
+  { href: 'https://x.com/', icon: <IoLogoTwitter /> },
+  { href: 'https://www.youtube.com/', icon: <IoLogoYoutube /> },
 ];
 
 export const heroData = {
-  title: 'I’m Void Sir.',
+  title: 'Void Ink Studio',
   subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
+    'Tattoos are more than just art—they’re expressions of identity, stories etched into the canvas of your skin.',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };
@@ -55,15 +54,15 @@ export const heroData = {
 export const aboutData = {
   title: 'My Story:',
   subtitle1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    "Every tattoo tells a story — a moment in time, a memory, a piece of someone's soul etched onto their skin forever. My journey into the world of tattooing began with a simple realization: art is not confined to a canvas. It's alive, breathing, and walking in the world. This belief drives every design I create and every person I connect with.",
   subtitle2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
+    'My craft isn’t just about ink and needles; it’s about listening to stories, understanding emotions, and turning them into timeless works of art. From intricate patterns to bold statements, each tattoo is a collaboration between the client’s vision and my hands.',
   btnText: 'Know more',
   btnIcon: <IoMdArrowForward />,
 };
 
 export const galleryData = {
-  title: 'Check my gallery:',
+  title: 'Discover my work:',
   btnText: 'View all',
   btnIcon: <IoMdArrowForward />,
   images: [
@@ -120,7 +119,7 @@ export const galleryData = {
 
 export const interviewData = {
   title:
-    '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
+    '“Your body is a canvas, and every tattoo tells a story. Choose one that resonates with your soul.”',
   btnText: 'Watch it now',
   btnIcon: <FaPlay />,
 };
@@ -129,96 +128,96 @@ export const testimonialData = [
   {
     quoteImg: QuoteImg,
     message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
+      "The team at Void Ink Studio goes above and beyond. Their artistry is unmatched, and their care makes every client feel special. Highly recommend!",
+    name: 'James Peterson',
     occupation: 'Tattoo Artist',
   },
   {
     quoteImg: QuoteImg,
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
+      'The experience was nothing short of incredible. The attention to detail, patience, and passion poured into my tattoo was beyond what I imagined!',
+    name: 'Emily Carter',
+    occupation: 'Photographer',
   },
 ];
 
 export const contactData = {
-  title: 'Get in touch with me:',
+  title: 'Let’s Connect',
   info: [
     {
-      title: 'LA office',
+      title: 'London Studio',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
+        'Bringing artistry to life in the heart of London. Let’s connect and create something meaningful together.',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
+        name: '22 Camden High Street, London, United Kingdom',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
+        number: '+44 20 7946 0123',
       },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: 'london@voidinkstudio.com',
       },
-      link: 'Get location',
+      link: 'View Location',
     },
     {
-      title: 'NYC office',
+      title: 'Tokyo Studio',
       subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
+        'A fusion of tradition and modern ink. Visit our Tokyo location and craft your story through tattoos.',
       address: {
         icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
+        name: '15 Shibuya Crossing, Tokyo, Japan',
       },
       phone: {
         icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
+        number: '+81 3-1234-5678',
       },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: 'tokyo@voidinkstudio.com',
       },
-      link: 'Get location',
+      link: 'View Location',
     },
   ],
   form: {
     name: 'Write your name here',
     email: 'Write your email address',
-    message: 'Write your messages here',
+    message: 'Tell us about your tattoo idea!',
     btnText: 'Send it',
   },
 };
 
 export const footerData = {
   about: {
-    title: 'About void tattoo',
+    title: 'About Void Ink Studio',
     subtitle:
       'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
     address: {
       icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
+      name: '22 Camden High Street, London, United Kingdom',
     },
     phone: {
       icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
+      number: '+44 20 7946 0123',
     },
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'london@voidinkstudio.com',
     },
   },
   links: {
-    title: 'Useful links',
+    title: 'Quick Links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
+      { href: '#about', name: 'About me' },
+      { href: '#gallery', name: 'My gallery' },
+      { href: '#services', name: 'My services' },
+      { href: '#contact', name: 'Contact me' },
     ],
   },
   program: {
-    title: 'Working Time',
+    title: 'Studio Hours: Plan Your Appointment',
     items: [
       { name: 'Mon - Tue / Appointment' },
       { name: 'Wed - Fri / 10:00 - 9:00pm' },
@@ -229,7 +228,7 @@ export const footerData = {
   newsletter: {
     title: 'Newsletter',
     subtitle:
-      'Elit duis porttitor massa tellus nun in velit arcu posuere integer.',
+      'Fresh Stories, Bold Perspectives, All in One Place.',
     form: {
       placeholder: 'Your email address',
       icon: <FiSend />,
